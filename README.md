@@ -12,9 +12,10 @@
 
 **Problem:** the lack of events harmonization is an issue for hpfeeds consumers.
 
-**Approach:** in order to solve this problem, hpfeeds should provide to honeypot developers a library (this code) to:
-* generate harmonized events, based on the honeypot custom harmonization configuration
-* easily connect to hpfeeds broker and send the harmonized events
+**Approach:** in order to solve this problem, hpfeeds should provide to honeypot developers:
+* library to generate harmonized events, based on the honeypot custom harmonization configuration
+* library to easily connect to hpfeeds broker and send the harmonized events
+* document to easily take advantage of the above libraries
 
 **Benefit:** in consumer prespective, they just need to read the harmonization configuration from each honeypot to know exactly which fields will be sent to them through hpfeeds.
 
@@ -79,6 +80,7 @@ python example.py
 ### TODO
 
 * replace json configuration to xml (will have the possibility to define configuration version)
+* create documentation for honeypot developers
 * check current hpfeeds library:
 ```
 https://github.com/rep/hpfeeds/blob/master/lib/hpfeeds.py
