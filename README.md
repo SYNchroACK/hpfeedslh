@@ -1,6 +1,6 @@
 ### Approach Explanation
 
-**Problem:** the lack of events harmonization if an issue for hpfeeds consumers.
+**Problem:** the lack of events harmonization is an issue for hpfeeds consumers.
 
 **Approach:** in order to solve this problem, hpfeeds should provide to developers a library (this code) to:
 * generate harmonized events, based on the honeypot custom harmonization configuration
