@@ -79,6 +79,10 @@ python example.py
 ### TODO
 
 * replace json configuration to xml (will have the possibility to define configuration version)
+* check current hpfeeds library:
+```
+https://github.com/rep/hpfeeds/blob/master/lib/hpfeeds.py
+```
 * check the following code (publisher):
 ```
 https://github.com/mushorg/glastopf/blob/master/glastopf/modules/reporting/auxiliary/log_hpfeeds.py
