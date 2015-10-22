@@ -1,10 +1,11 @@
-## Table of Contents
+## Sections
 
 1. [Approach Explanation](#approach)
 2. [HPFeeds Module Evaluation in Honeypots](#evaluation)
 3. [Run Example](#run-example)
 4. [TODO](#todo)
 
+* * *
 
 <a name="approach"></a>
 ### Approach Explanation
@@ -17,6 +18,7 @@
 
 **Benefit:** in consumer prespective, they just need to read the harmonization configuration from each honeypot to know exactly which fields will be sent to them through hpfeeds.
 
+* * *
 
 <a name="evaluation"></a>
 ### HPFeeds Module Evaluation in Honeypots
@@ -60,6 +62,8 @@ repository = https://github.com/buffer/thug/
 hpfeeds_module = https://github.com/buffer/thug/blob/master/hpfeeds/hpfeeds.py
 ```
 
+* * *
+
 <a name="run-example"></a>
 ### Run Example
 
@@ -68,6 +72,8 @@ git clone https://github.com/SYNchroACK/hpfeedslh
 cd hpfeedslh/
 python example.py
 ```
+
+* * *
 
 <a name="todo"></a>
 ### TODO
