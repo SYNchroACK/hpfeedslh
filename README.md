@@ -6,6 +6,15 @@ cd hpfeedslh/
 python example.py
 ```
 
+### Approach Explanation
+
+**Problem:** the lack of events harmonization if an issue for hpfeeds consumers.
+**Approach:** in order to solve this problem, hpfeeds should provide to developers a library (this code) to:
+* generate harmonized events, based on the honeypot custom harmonization configuration
+* easily connect to hpfeeds broker and send the harmonized events
+**Benefit:** in consumer prespective, they just need to read the harmonization configuration from each honeypot to know exactly which fields will be sent to them through hpfeeds.
+
+
 ### HPFeeds Module Evaluation in Honeypots
 
 The goals of this evaluation are:
