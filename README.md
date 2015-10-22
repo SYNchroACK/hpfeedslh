@@ -1,3 +1,12 @@
+## Table of Contents
+
+1. [Approach Explanation](#approach)
+2. [HPFeeds Module Evaluation in Honeypots](#evaluation)
+3. [Run Example](#run-example)
+4. [TODO](#todo)
+
+
+<a name="approach"></a>
 ### Approach Explanation
 
 **Problem:** the lack of events harmonization is an issue for hpfeeds consumers.
@@ -9,6 +18,7 @@
 **Benefit:** in consumer prespective, they just need to read the harmonization configuration from each honeypot to know exactly which fields will be sent to them through hpfeeds.
 
 
+<a name="evaluation"></a>
 ### HPFeeds Module Evaluation in Honeypots
 
 The goals of this evaluation are:
@@ -50,7 +60,7 @@ repository = https://github.com/buffer/thug/
 hpfeeds_module = https://github.com/buffer/thug/blob/master/hpfeeds/hpfeeds.py
 ```
 
-
+<a name="run-example"></a>
 ### Run Example
 
 ```
@@ -59,5 +69,7 @@ cd hpfeedslh/
 python example.py
 ```
 
+<a name="todo"></a>
 ### TODO
-[TODO](TODO.md).
+
+* replace json configuration to xml (will have the possibility to define configuration version)
